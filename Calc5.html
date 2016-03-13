@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Homework</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <link rel="stylesheet" href="COPYstyle270216.css" />
+   </head>
+   <body>
+  <div class="div1">
+        <header>
+            <a href="index.html"><img src="webLogo.png" alt="Изображение" height="100"></a><br />
+            <h1 class="hcentre">Основы Web-технологий</h1>     
+        <ul class="main1">
+            <li class="main11"><a href="index.html">Главная</a></li>
+            <li class="main12"><a href="Web-teh1.html">Web-технологии</a>
+                <ul class="main2">
+                    <li class="main21"><a href="html2.html">HTML5</a></li>
+                    <li class="main22"><a href="css3.html">CSS3</a></li>
+                    <li class="main23"><a href="JavaScript4.html">JS</a></li>
+                </ul>
+            </li>
+            <li class="main13"><a href="Calc5.html">Калькулятор</a></li>
+            <li class="main14"><a href="test6.html">Тест</a></li>
+        </ul>
+        </header>
+      </div>
+<div class="centrDivCall">      
+      <form class="formCall" id="search" name="calc">
+       <input class="inputText" type="text" name="result" value="0" />
+       <table class="mailTable">
+        <tr>
+            <td><input class="smallBut" type="button" name="seven" onclick="numPressed(7)" value="7" /></td>
+            <td><input class="smallBut" type="button" name="eight" onclick="numPressed(8)" value="8" /></td>
+            <td><input class="smallBut" type="button" name="nine" onclick="numPressed(9)" value="9" /></td>
+            <td><input class="smallBut" type="button" name="split" onclick="operation('/')" value="/" /></td>
+            <td><input class="smallBut" type="button" name="delete" onclick="deleteC()" value="C" /></td>
+        </tr>
+        <tr>
+            <td><input class="smallBut" type="button" name="four" onclick="numPressed(4)" value="4" /></td>
+            <td><input class="smallBut" type="button" name="five" onclick="numPressed(5)" value="5" /></td>
+            <td><input class="smallBut" type="button" name="six" onclick="numPressed(6)" value="6" /></td>
+            <td><input class="smallBut" type="button" name="multiply" onclick="operation('*')" value="*" /></td>
+            <td><input class="smallBut" type="button" name="plusmn" onclick="neg()" value="&plusmn;" /></td>
+        </tr>
+        <tr>
+            <td><input class="smallBut" type="button" name="one" onclick="numPressed(1)" value="1" /></td>
+            <td><input class="smallBut" type="button" name="two" onclick="numPressed(2)" value="2" /></td>
+            <td><input class="smallBut" type="button" name="three" onclick="numPressed(3)" value="3" /></td>
+            <td><input class="smallBut" type="button" name="minus" onclick="operation('-')" value="-" /></td>
+            <td rowspan="2"><input class="smallButEqual" type="button" name="equally" onclick="operation('=')" value="=" /><br /></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input class="smallBut0" type="button" name="zero" onclick="numPressed(0)" value="0" /></td>
+            <td><input class="smallBut" type="button" name="point" onclick="decimal()" value="." /></td>
+            <td><input class="smallBut" type="button" name="plus" onclick="operation('+')" value="+" /></td>
+        </tr>
+       </table>
+      </form>
+    </div>  
+    <div class="div3"> 
+        <footer>
+            <address>
+                <a href="mailto:mail@mail">Пишите: mail@mail</a>
+            </address>
+        &copy;Ф.И.О.2016
+        </footer>
+       </div>
+<script src="JSscript.js"></script>       
+   </body>
+</html>
+

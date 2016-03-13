@@ -1,0 +1,115 @@
+body { 
+           background-color: gray;
+           width:  800px;
+           margin:0 auto;/*измен в зависим от окна браузера*/
+          }
+img             { 
+            float: left;/*обтекание картинки*/
+            height: 100px;
+                       
+
+            }          
+ul.main1 li {
+             display: inline; /*в строку*/
+             text-align: center ;
+             position: relative;
+                        
+}
+ul.main1 /* ul к главному меню*/{
+            clear: both;/*убирает обтекания*/
+            padding-left: 250px;/*сдвигает глав меню в право*/
+}
+ul.main2 {/*подменю*/
+             display: none; /*невидим*/
+             list-style:none;/*убрали маркеры*/
+             position: absolute;
+             padding: 5px; /* Поля вокруг надписи */
+             border: 1px solid #ccc;/* Рамка вокруг пунктов меню */
+             background-color: #f0f0f0; /* Цвет фона */
+             width: 50px; /* Ширина меню */
+             height: 75pxpx;/* Высота меню */
+             border-bottom: none; /* Границу снизу не проводим */
+             left: -5px;/*смещение в лево*/
+             margin-top: -3px;/*Убираем отступы между меню и подменю - чтобы курсор переходил плавно*/                                   
+}
+li:hover ul  {
+    display: block;
+}
+ 
+} /*при удал  ломается*/
+ul.main2 li{
+      display:block;/*подразделы в виде списка вниз - если убрать - фон body*/
+    }
+
+div.div1 { 
+         text-align: justify;
+         border-radius: 10px;
+         background-color: white;
+         /*margin-left: 180px;
+         margin-right: 70px;*/
+         margin-bottom: -17px;/*-17px*/         
+}
+h1.hcentre {
+           margin-top: 0px;
+           margin-left: 240px;
+           }
+div.div2 { 
+         text-align: justify;
+         border-radius: 10px;
+         background-color: white;
+         /*margin-left: 180px;
+         margin-right: 70px;*/
+         padding-left: 10px;
+         padding-right: 10px;
+         margin-bottom: -17px; 
+}
+div.centrDivCall {
+    background-color: white;
+    color: red;
+    border-radius: 10px;    
+    }
+form.formCall {
+   padding-left: 270px;/*сдвигает калькул в право*/ 
+   padding-top: 17px;
+   margin: 0px;
+   
+}
+input.inputText { /*КАК ИЗМЕНИТЬ РАЗПОЛОЖЕНИЕ ПОЛЯ ВВОДА ОТНОС ЦИФР ПРИ МЕНЬШЕМ РАЗМЕРЕ БРАУЗЕРА?*/
+        width: 263px; /* Ширина поля ввода цифр */
+        height: 30px;/* Высота поля ввода цифр */
+        margin: 3px;/*ПРИ МЕНЬШЕМ РАЗМЕРЕ - СБИВАЕТСЯ*/
+        padding-left: -5px;
+        text-align: right;
+        
+}
+table.mailTable {
+    border-style: none;
+    padding:0px;/*временно*/
+    margin: 0px;/*временно*/
+}
+input.smallBut {
+        width: 50px; /* Ширина  */
+        height: 30px;/* Высота  */
+        border-style: gray; /*граница серая*/
+        padding:0px;/*временно*/
+        margin: 0px;/*временно*/        
+}   
+ input.smallBut0 {
+        width: 105px; /* Ширина  */
+        height: 30px;/* Высота  */
+        border-style: gray; /*граница серая*/           
+} 
+input.smallButEqual {
+        width: 50px; /* Ширина  */
+        height: 63px;/* Высота  */
+        border-style: gray; /*граница серая*/           
+}       
+div.div3 { 
+         text-align: center ;
+         border-radius: 10px;
+         background-color: white;
+         /*margin-left: 180px;
+         margin-right: 70px;*/
+         margin-bottom: 70px;          
+}        
+       
